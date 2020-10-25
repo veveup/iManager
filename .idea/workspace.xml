@@ -7,46 +7,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd767905-8ff7-4868-aa3c-015955b3011b" name="Default Changelist" comment="finish">
-      <change afterPath="$PROJECT_DIR$/iManager.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/AddUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/AuthorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/DeleteUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/UpdateUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/dao/AdminSecretDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/dao/IAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/test/UserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/utils/GoogleAuthenticatorUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/js/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/about.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/addUser.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/authory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/includeStatic.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginForm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/manager.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bd767905-8ff7-4868-aa3c-015955b3011b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/veveup/dao/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/veveup/dao/IUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/veveup/domain/UserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/veveup/test/JdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/veveup/test/JdbcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/veveup/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/veveup/utils/JdbcUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/veveup.com.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/veveup.com/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/veveup.com/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/veveup.com/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/veveup.com/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/veveup.com/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/veveup.com/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +338,7 @@
       <workItem from="1603435385730" duration="6038000" />
       <workItem from="1603554099049" duration="101000" />
       <workItem from="1603554244621" duration="454000" />
-      <workItem from="1603615489747" duration="14700000" />
+      <workItem from="1603615489747" duration="15053000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603247079656</created>
@@ -391,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603248008147</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finish">
+      <created>1603642325925</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603642325925</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +369,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish" />
   </component>
   <component name="WindowStateProjectService">
     <state x="531" y="273" key="#BuildArtifactsBeforeRunChooser" timestamp="1603271269778">
@@ -435,10 +406,10 @@
       <screen x="48" y="23" width="1392" height="877" />
     </state>
     <state x="482" y="223" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/48.23.1392.877@48.23.1392.877" timestamp="1603271973803" />
-    <state x="319" y="34" key="CommitChangelistDialog2" timestamp="1603642200565">
+    <state x="319" y="34" key="CommitChangelistDialog2" timestamp="1603642325611">
       <screen x="41" y="23" width="1399" height="877" />
     </state>
-    <state x="319" y="34" key="CommitChangelistDialog2/41.23.1399.877@41.23.1399.877" timestamp="1603642200565" />
+    <state x="319" y="34" key="CommitChangelistDialog2/41.23.1399.877@41.23.1399.877" timestamp="1603642325611" />
     <state x="321" y="34" key="CommitChangelistDialog2/43.23.1397.877@43.23.1397.877" timestamp="1603634809830" />
     <state width="924" height="297" key="GridCell.Tab.0.bottom" timestamp="1603642169443">
       <screen x="41" y="23" width="1399" height="877" />
@@ -577,10 +548,10 @@
       <screen x="44" y="23" width="1396" height="877" />
     </state>
     <state x="112" y="124" key="new project wizard/44.23.1396.877@44.23.1396.877" timestamp="1603350845183" />
-    <state x="404" y="213" key="search.everywhere.popup" timestamp="1603642210673">
+    <state x="404" y="213" key="search.everywhere.popup" timestamp="1603642599776">
       <screen x="41" y="23" width="1399" height="877" />
     </state>
-    <state x="404" y="213" key="search.everywhere.popup/41.23.1399.877@41.23.1399.877" timestamp="1603642210673" />
+    <state x="404" y="213" key="search.everywhere.popup/41.23.1399.877@41.23.1399.877" timestamp="1603642599776" />
     <state x="409" y="213" key="search.everywhere.popup/48.23.1392.877@48.23.1392.877" timestamp="1603251093070" />
   </component>
 </project>
