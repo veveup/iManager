@@ -12,6 +12,8 @@
         <li class="is-active"><a href="${pageContext.request.contextPath}/manager.jsp">Super Very So and More 终极人员管理系统</a></li>
         <li><a href="${pageContext.request.contextPath}/addUser.jsp">Add</a></li>
         <li><a>About</a></li>
+        <li><a href="${pageContext.request.contextPath}/authoryUndo.jsp">Exit</a></li>
+
 
     </ul>
 </div>
