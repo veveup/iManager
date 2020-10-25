@@ -1,0 +1,7 @@
+CREATE TABLE `iManager`.`Untitled`  (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `name` char(24) NULL DEFAULT null,
+  `password` char(64) NULL,
+  `profile` char(128) NULL,
+  PRIMARY KEY (`id`)
+);

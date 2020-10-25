@@ -1,6 +1,7 @@
 package com.veveup.test;
 
 
+import java.io.UnsupportedEncodingException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -24,9 +25,9 @@ public class JdbcTest {
     }
 
     @Test
-    public void findByIdTest() throws SQLException {
+    public void findByIdTest() throws SQLException, UnsupportedEncodingException {
         // 1.定义sql
-        String sql = "select * from user where id=1";
+        String sql = "select * from User where id=3";
 
         Statement st = null;
         ResultSet rs = null;
@@ -40,14 +41,40 @@ public class JdbcTest {
             // 5.遍历结果集
             while (rs.next()) {
                 int id = rs.getInt("id");
-                String username = rs.getString("username");
+//                String username = rs.getString("name");
+                String username = new String(rs.getBytes("name"),"unicode");
                 String password = rs.getString("password");
-                String email = rs.getString("email");
 
-                System.out.println(id + "  " + username + "  " + password
-                        + "  " + email);
+                System.out.println(id+username+password);
             }
         }
+
+
+    @Test
+    public void AddUser() throws SQLException, UnsupportedEncodingException {
+        // 1.定义sql
+        String sql = "insert into User(name) values(\"威威开心\")";
+
+        Statement st = null;
+        ResultSet rs = null;
+
+        // 3.获取操作sql语句对象Statement
+        st = con.createStatement();
+
+        // 4.执行sql
+        int i = st.executeUpdate(sql);
+        st.close();
+
+        // 5.遍历结果集
+//        while (rs.next()) {
+//            int id = rs.getInt("id");
+////                String username = rs.getString("name");
+//            String username = new String(rs.getBytes("name"),"unicode");
+//            String password = rs.getString("password");
+//
+//            System.out.println(id+username+password);
+//        }
+    }
 
     // 添加操作
     @Test
@@ -63,7 +90,7 @@ public class JdbcTest {
             Class.forName("com.mysql.jdbc.Driver");
 
             // 2.获取连接
-            con = DriverManager.getConnection("jdbc:mysql:///day17", "root",
+            con = DriverManager.getConnection("jdbc:mysql:///iM", "root",
                     "abc");
 
             // 3.获取操作sql语句对象Statement

@@ -2,17 +2,51 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="iManagerDemo:war" />
+      <artifact name="iManager:war" />
+      <artifact name="iManager:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd767905-8ff7-4868-aa3c-015955b3011b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="bd767905-8ff7-4868-aa3c-015955b3011b" name="Default Changelist" comment="finish">
+      <change afterPath="$PROJECT_DIR$/iManager.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/AddUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/AuthorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/DeleteUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/UpdateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/controller/manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/dao/AdminSecretDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/dao/IAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/veveup/utils/GoogleAuthenticatorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/about.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addUser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/authory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/includeStatic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/manager.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateUser.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/veveup/dao/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/veveup/dao/IUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/veveup/domain/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/veveup/test/JdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/veveup/test/JdbcTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/veveup/utils/JdbcUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/veveup/utils/JdbcUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/veveup.com.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/veveup.com/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/veveup.com/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/veveup.com/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/veveup.com/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/veveup.com/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/veveup.com/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +56,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="jsf" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -37,12 +75,6 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="123" />
-    <option name="y" value="88" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
   <component name="ProjectId" id="1jAd3lyWjFVljeiqOORRjihlHlZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -52,9 +84,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -62,18 +96,110 @@
     <property name="project.structure.side.proportion" value="0.26666668" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager">
-    <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="restart-server" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.4">
+    <configuration name="GoogleAuthenticatorUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.veveup.utils.GoogleAuthenticatorUtils" />
+      <module name="iManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veveup.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTest.AddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veveup.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.veveup.test" />
+      <option name="MAIN_CLASS_NAME" value="com.veveup.test.JdbcTest" />
+      <option name="METHOD_NAME" value="AddUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTest.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veveup.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.veveup.test" />
+      <option name="MAIN_CLASS_NAME" value="com.veveup.test.JdbcTest" />
+      <option name="METHOD_NAME" value="findByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.getAllUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veveup.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.veveup.test" />
+      <option name="MAIN_CLASS_NAME" value="com.veveup.test.UserDaoTest" />
+      <option name="METHOD_NAME" value="getAllUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.updateUserByU" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="iManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.veveup.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.veveup.test" />
+      <option name="MAIN_CLASS_NAME" value="com.veveup.test.UserDaoTest" />
+      <option name="METHOD_NAME" value="updateUserByU" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.4" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.4" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
-        <artifact name="iManagerDemo:war">
+        <artifact name="iManager:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/iManagerDemo_war" />
+            <option name="CONTEXT_PATH" value="/iManager_war" />
+          </settings>
+        </artifact>
+        <artifact name="iManager:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/iManager_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_37_iManagerDemo" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_37_iManager" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -132,6 +258,8 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="iManagerDemo:war" />
+          <artifact name="iManager:war" />
+          <artifact name="iManager:war exploded" />
         </option>
       </method>
     </configuration>
@@ -205,9 +333,28 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="iManagerDemo:war" />
+          <artifact name="iManager:war" />
+          <artifact name="iManager:war exploded" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.GoogleAuthenticatorUtils" />
+      <item itemvalue="JUnit.UserDaoTest.getAllUser" />
+      <item itemvalue="JUnit.UserDaoTest.updateUserByU" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.4" />
+      <item itemvalue="JUnit.JdbcTest.findByIdTest" />
+      <item itemvalue="JUnit.JdbcTest.AddUser" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JdbcTest.AddUser" />
+        <item itemvalue="JUnit.JdbcTest.findByIdTest" />
+        <item itemvalue="Application.GoogleAuthenticatorUtils" />
+        <item itemvalue="JUnit.UserDaoTest.getAllUser" />
+        <item itemvalue="JUnit.UserDaoTest.updateUserByU" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -221,7 +368,14 @@
       <updated>1603246727465</updated>
       <workItem from="1603246731169" duration="727000" />
       <workItem from="1603247586513" duration="583000" />
-      <workItem from="1603250634702" duration="1437000" />
+      <workItem from="1603250634702" duration="1994000" />
+      <workItem from="1603262849028" duration="20844000" />
+      <workItem from="1603358059961" duration="10000" />
+      <workItem from="1603435080346" duration="265000" />
+      <workItem from="1603435385730" duration="6038000" />
+      <workItem from="1603554099049" duration="101000" />
+      <workItem from="1603554244621" duration="454000" />
+      <workItem from="1603615489747" duration="14700000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603247079656</created>
@@ -248,25 +402,185 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="232" y="43" key="#Project_Structure" timestamp="1603251400190">
+    <state x="531" y="273" key="#BuildArtifactsBeforeRunChooser" timestamp="1603271269778">
       <screen x="48" y="23" width="1392" height="877" />
     </state>
-    <state x="232" y="43" key="#Project_Structure/48.23.1392.877@48.23.1392.877" timestamp="1603251400190" />
-    <state x="557" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1603251222491">
+    <state x="531" y="273" key="#BuildArtifactsBeforeRunChooser/48.23.1392.877@48.23.1392.877" timestamp="1603271269778" />
+    <state x="225" y="43" key="#Project_Structure" timestamp="1603635667612">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state x="225" y="43" key="#Project_Structure/41.23.1399.877@41.23.1399.877" timestamp="1603635667612" />
+    <state x="227" y="43" key="#Project_Structure/43.23.1397.877@43.23.1397.877" timestamp="1603635465131" />
+    <state x="229" y="43" key="#Project_Structure/45.23.1395.877@45.23.1395.877" timestamp="1603554293919" />
+    <state x="232" y="43" key="#Project_Structure/48.23.1392.877@48.23.1392.877" timestamp="1603271976708" />
+    <state x="154" y="23" key="#Tomcat_9.0.37" timestamp="1603271044563">
       <screen x="48" y="23" width="1392" height="877" />
     </state>
-    <state x="557" y="152" key="#com.intellij.ide.util.MemberChooser/48.23.1392.877@48.23.1392.877" timestamp="1603251222491" />
-    <state x="282" y="123" key="Maven.ArtifactSearchDialog" timestamp="1603251846132">
+    <state x="154" y="23" key="#Tomcat_9.0.37/48.23.1392.877@48.23.1392.877" timestamp="1603271044563" />
+    <state x="203" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603635630976">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state x="203" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/41.23.1399.877@41.23.1399.877" timestamp="1603635630976" />
+    <state x="205" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/45.23.1395.877@45.23.1395.877" timestamp="1603554188428" />
+    <state x="207" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/47.23.1393.877@47.23.1393.877" timestamp="1603325629011" />
+    <state x="208" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/48.23.1392.877@48.23.1392.877" timestamp="1603271332289" />
+    <state x="557" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1603616594552">
       <screen x="48" y="23" width="1392" height="877" />
     </state>
-    <state x="282" y="123" key="Maven.ArtifactSearchDialog/48.23.1392.877@48.23.1392.877" timestamp="1603251846132" />
+    <state x="554" y="152" key="#com.intellij.ide.util.MemberChooser/44.23.1396.877@44.23.1396.877" timestamp="1603350002786" />
+    <state x="555" y="152" key="#com.intellij.ide.util.MemberChooser/45.23.1395.877@45.23.1395.877" timestamp="1603438593596" />
+    <state x="556" y="152" key="#com.intellij.ide.util.MemberChooser/47.23.1393.877@47.23.1393.877" timestamp="1603274867757" />
+    <state x="557" y="152" key="#com.intellij.ide.util.MemberChooser/48.23.1392.877@48.23.1392.877" timestamp="1603616594552" />
+    <state x="482" y="223" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1603271973803">
+      <screen x="48" y="23" width="1392" height="877" />
+    </state>
+    <state x="482" y="223" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/48.23.1392.877@48.23.1392.877" timestamp="1603271973803" />
+    <state x="319" y="34" key="CommitChangelistDialog2" timestamp="1603642200565">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state x="319" y="34" key="CommitChangelistDialog2/41.23.1399.877@41.23.1399.877" timestamp="1603642200565" />
+    <state x="321" y="34" key="CommitChangelistDialog2/43.23.1397.877@43.23.1397.877" timestamp="1603634809830" />
+    <state width="924" height="297" key="GridCell.Tab.0.bottom" timestamp="1603642169443">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1603640093218" />
+    <state width="924" height="297" key="GridCell.Tab.0.bottom/41.23.1399.877@41.23.1399.877" timestamp="1603642169443" />
+    <state width="924" height="297" key="GridCell.Tab.0.bottom/43.23.1397.877@43.23.1397.877" timestamp="1603635211456" />
+    <state width="1348" height="259" key="GridCell.Tab.0.bottom/44.23.1396.877@44.23.1396.877" timestamp="1603443214802" />
+    <state width="923" height="278" key="GridCell.Tab.0.bottom/45.23.1395.877@45.23.1395.877" timestamp="1603440858693" />
+    <state width="926" height="297" key="GridCell.Tab.0.bottom/47.23.1393.877@47.23.1393.877" timestamp="1603613643498" />
+    <state width="924" height="297" key="GridCell.Tab.0.bottom/48.23.1392.877@48.23.1392.877" timestamp="1603619056289" />
+    <state width="924" height="297" key="GridCell.Tab.0.center" timestamp="1603642169442">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1603640093217" />
+    <state width="924" height="297" key="GridCell.Tab.0.center/41.23.1399.877@41.23.1399.877" timestamp="1603642169442" />
+    <state width="924" height="297" key="GridCell.Tab.0.center/43.23.1397.877@43.23.1397.877" timestamp="1603635211456" />
+    <state width="1348" height="259" key="GridCell.Tab.0.center/44.23.1396.877@44.23.1396.877" timestamp="1603443214801" />
+    <state width="923" height="278" key="GridCell.Tab.0.center/45.23.1395.877@45.23.1395.877" timestamp="1603440858690" />
+    <state width="926" height="297" key="GridCell.Tab.0.center/47.23.1393.877@47.23.1393.877" timestamp="1603613643497" />
+    <state width="924" height="297" key="GridCell.Tab.0.center/48.23.1392.877@48.23.1392.877" timestamp="1603619056289" />
+    <state width="924" height="297" key="GridCell.Tab.0.left" timestamp="1603642169441">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1603640093216" />
+    <state width="924" height="297" key="GridCell.Tab.0.left/41.23.1399.877@41.23.1399.877" timestamp="1603642169441" />
+    <state width="924" height="297" key="GridCell.Tab.0.left/43.23.1397.877@43.23.1397.877" timestamp="1603635211455" />
+    <state width="1348" height="259" key="GridCell.Tab.0.left/44.23.1396.877@44.23.1396.877" timestamp="1603443214801" />
+    <state width="923" height="278" key="GridCell.Tab.0.left/45.23.1395.877@45.23.1395.877" timestamp="1603440858685" />
+    <state width="926" height="297" key="GridCell.Tab.0.left/47.23.1393.877@47.23.1393.877" timestamp="1603613643496" />
+    <state width="924" height="297" key="GridCell.Tab.0.left/48.23.1392.877@48.23.1392.877" timestamp="1603619056288" />
+    <state width="924" height="297" key="GridCell.Tab.0.right" timestamp="1603642169443">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1603640093218" />
+    <state width="924" height="297" key="GridCell.Tab.0.right/41.23.1399.877@41.23.1399.877" timestamp="1603642169443" />
+    <state width="924" height="297" key="GridCell.Tab.0.right/43.23.1397.877@43.23.1397.877" timestamp="1603635211456" />
+    <state width="1348" height="259" key="GridCell.Tab.0.right/44.23.1396.877@44.23.1396.877" timestamp="1603443214802" />
+    <state width="923" height="278" key="GridCell.Tab.0.right/45.23.1395.877@45.23.1395.877" timestamp="1603440858692" />
+    <state width="926" height="297" key="GridCell.Tab.0.right/47.23.1393.877@47.23.1393.877" timestamp="1603613643497" />
+    <state width="924" height="297" key="GridCell.Tab.0.right/48.23.1392.877@48.23.1392.877" timestamp="1603619056289" />
+    <state width="924" height="297" key="GridCell.Tab.1.bottom" timestamp="1603642169445">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.1.bottom/40.23.1400.877@40.23.1400.877" timestamp="1603640093222" />
+    <state width="924" height="297" key="GridCell.Tab.1.bottom/41.23.1399.877@41.23.1399.877" timestamp="1603642169445" />
+    <state width="924" height="297" key="GridCell.Tab.1.bottom/43.23.1397.877@43.23.1397.877" timestamp="1603635211461" />
+    <state width="923" height="278" key="GridCell.Tab.1.bottom/44.23.1396.877@44.23.1396.877" timestamp="1603443214790" />
+    <state width="923" height="278" key="GridCell.Tab.1.bottom/45.23.1395.877@45.23.1395.877" timestamp="1603440858696" />
+    <state width="926" height="297" key="GridCell.Tab.1.bottom/47.23.1393.877@47.23.1393.877" timestamp="1603613643507" />
+    <state width="924" height="297" key="GridCell.Tab.1.bottom/48.23.1392.877@48.23.1392.877" timestamp="1603619056290" />
+    <state width="924" height="297" key="GridCell.Tab.1.center" timestamp="1603642169444">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.1.center/40.23.1400.877@40.23.1400.877" timestamp="1603640093221" />
+    <state width="924" height="297" key="GridCell.Tab.1.center/41.23.1399.877@41.23.1399.877" timestamp="1603642169444" />
+    <state width="924" height="297" key="GridCell.Tab.1.center/43.23.1397.877@43.23.1397.877" timestamp="1603635211460" />
+    <state width="923" height="278" key="GridCell.Tab.1.center/44.23.1396.877@44.23.1396.877" timestamp="1603443214790" />
+    <state width="923" height="278" key="GridCell.Tab.1.center/45.23.1395.877@45.23.1395.877" timestamp="1603440858694" />
+    <state width="926" height="297" key="GridCell.Tab.1.center/47.23.1393.877@47.23.1393.877" timestamp="1603613643499" />
+    <state width="924" height="297" key="GridCell.Tab.1.center/48.23.1392.877@48.23.1392.877" timestamp="1603619056290" />
+    <state width="924" height="297" key="GridCell.Tab.1.left" timestamp="1603642169444">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.1.left/40.23.1400.877@40.23.1400.877" timestamp="1603640093220" />
+    <state width="924" height="297" key="GridCell.Tab.1.left/41.23.1399.877@41.23.1399.877" timestamp="1603642169444" />
+    <state width="924" height="297" key="GridCell.Tab.1.left/43.23.1397.877@43.23.1397.877" timestamp="1603635211459" />
+    <state width="923" height="278" key="GridCell.Tab.1.left/44.23.1396.877@44.23.1396.877" timestamp="1603443214790" />
+    <state width="923" height="278" key="GridCell.Tab.1.left/45.23.1395.877@45.23.1395.877" timestamp="1603440858694" />
+    <state width="926" height="297" key="GridCell.Tab.1.left/47.23.1393.877@47.23.1393.877" timestamp="1603613643498" />
+    <state width="924" height="297" key="GridCell.Tab.1.left/48.23.1392.877@48.23.1392.877" timestamp="1603619056289" />
+    <state width="924" height="297" key="GridCell.Tab.1.right" timestamp="1603642169445">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.1.right/40.23.1400.877@40.23.1400.877" timestamp="1603640093221" />
+    <state width="924" height="297" key="GridCell.Tab.1.right/41.23.1399.877@41.23.1399.877" timestamp="1603642169445" />
+    <state width="924" height="297" key="GridCell.Tab.1.right/43.23.1397.877@43.23.1397.877" timestamp="1603635211460" />
+    <state width="923" height="278" key="GridCell.Tab.1.right/44.23.1396.877@44.23.1396.877" timestamp="1603443214790" />
+    <state width="923" height="278" key="GridCell.Tab.1.right/45.23.1395.877@45.23.1395.877" timestamp="1603440858695" />
+    <state width="926" height="297" key="GridCell.Tab.1.right/47.23.1393.877@47.23.1393.877" timestamp="1603613643500" />
+    <state width="924" height="297" key="GridCell.Tab.1.right/48.23.1392.877@48.23.1392.877" timestamp="1603619056290" />
+    <state width="924" height="297" key="GridCell.Tab.2.bottom" timestamp="1603642169447">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.2.bottom/40.23.1400.877@40.23.1400.877" timestamp="1603640093220" />
+    <state width="924" height="297" key="GridCell.Tab.2.bottom/41.23.1399.877@41.23.1399.877" timestamp="1603642169447" />
+    <state width="924" height="297" key="GridCell.Tab.2.bottom/43.23.1397.877@43.23.1397.877" timestamp="1603635211459" />
+    <state width="923" height="278" key="GridCell.Tab.2.bottom/44.23.1396.877@44.23.1396.877" timestamp="1603443214791" />
+    <state width="923" height="278" key="GridCell.Tab.2.bottom/45.23.1395.877@45.23.1395.877" timestamp="1603440858698" />
+    <state width="926" height="297" key="GridCell.Tab.2.bottom/47.23.1393.877@47.23.1393.877" timestamp="1603613643508" />
+    <state width="924" height="297" key="GridCell.Tab.2.bottom/48.23.1392.877@48.23.1392.877" timestamp="1603619056292" />
+    <state width="924" height="297" key="GridCell.Tab.2.center" timestamp="1603642169446">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.2.center/40.23.1400.877@40.23.1400.877" timestamp="1603640093219" />
+    <state width="924" height="297" key="GridCell.Tab.2.center/41.23.1399.877@41.23.1399.877" timestamp="1603642169446" />
+    <state width="924" height="297" key="GridCell.Tab.2.center/43.23.1397.877@43.23.1397.877" timestamp="1603635211457" />
+    <state width="923" height="278" key="GridCell.Tab.2.center/44.23.1396.877@44.23.1396.877" timestamp="1603443214790" />
+    <state width="923" height="278" key="GridCell.Tab.2.center/45.23.1395.877@45.23.1395.877" timestamp="1603440858697" />
+    <state width="926" height="297" key="GridCell.Tab.2.center/47.23.1393.877@47.23.1393.877" timestamp="1603613643508" />
+    <state width="924" height="297" key="GridCell.Tab.2.center/48.23.1392.877@48.23.1392.877" timestamp="1603619056291" />
+    <state width="924" height="297" key="GridCell.Tab.2.left" timestamp="1603642169446">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.2.left/40.23.1400.877@40.23.1400.877" timestamp="1603640093219" />
+    <state width="924" height="297" key="GridCell.Tab.2.left/41.23.1399.877@41.23.1399.877" timestamp="1603642169446" />
+    <state width="924" height="297" key="GridCell.Tab.2.left/43.23.1397.877@43.23.1397.877" timestamp="1603635211457" />
+    <state width="923" height="278" key="GridCell.Tab.2.left/44.23.1396.877@44.23.1396.877" timestamp="1603443214790" />
+    <state width="923" height="278" key="GridCell.Tab.2.left/45.23.1395.877@45.23.1395.877" timestamp="1603440858696" />
+    <state width="926" height="297" key="GridCell.Tab.2.left/47.23.1393.877@47.23.1393.877" timestamp="1603613643507" />
+    <state width="924" height="297" key="GridCell.Tab.2.left/48.23.1392.877@48.23.1392.877" timestamp="1603619056291" />
+    <state width="924" height="297" key="GridCell.Tab.2.right" timestamp="1603642169447">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state width="924" height="297" key="GridCell.Tab.2.right/40.23.1400.877@40.23.1400.877" timestamp="1603640093220" />
+    <state width="924" height="297" key="GridCell.Tab.2.right/41.23.1399.877@41.23.1399.877" timestamp="1603642169447" />
+    <state width="924" height="297" key="GridCell.Tab.2.right/43.23.1397.877@43.23.1397.877" timestamp="1603635211458" />
+    <state width="923" height="278" key="GridCell.Tab.2.right/44.23.1396.877@44.23.1396.877" timestamp="1603443214791" />
+    <state width="923" height="278" key="GridCell.Tab.2.right/45.23.1395.877@45.23.1395.877" timestamp="1603440858697" />
+    <state width="926" height="297" key="GridCell.Tab.2.right/47.23.1393.877@47.23.1393.877" timestamp="1603613643508" />
+    <state width="924" height="297" key="GridCell.Tab.2.right/48.23.1392.877@48.23.1392.877" timestamp="1603619056291" />
+    <state x="280" y="123" key="Maven.ArtifactSearchDialog" timestamp="1603436789064">
+      <screen x="45" y="23" width="1395" height="877" />
+    </state>
+    <state x="280" y="123" key="Maven.ArtifactSearchDialog/45.23.1395.877@45.23.1395.877" timestamp="1603436789064" />
+    <state x="282" y="123" key="Maven.ArtifactSearchDialog/48.23.1392.877@48.23.1392.877" timestamp="1603271638341" />
     <state x="344" y="201" key="Vcs.Push.Dialog.v2" timestamp="1603250922893">
       <screen x="48" y="23" width="1392" height="877" />
     </state>
     <state x="344" y="201" key="Vcs.Push.Dialog.v2/48.23.1392.877@48.23.1392.877" timestamp="1603250922893" />
-    <state x="409" y="213" key="search.everywhere.popup" timestamp="1603251093070">
-      <screen x="48" y="23" width="1392" height="877" />
+    <state x="445" y="58" width="600" height="807" key="find.popup" timestamp="1603435782953">
+      <screen x="45" y="23" width="1395" height="877" />
     </state>
+    <state x="445" y="58" width="600" height="807" key="find.popup/45.23.1395.877@45.23.1395.877" timestamp="1603435782953" />
+    <state x="112" y="124" key="new project wizard" timestamp="1603350845183">
+      <screen x="44" y="23" width="1396" height="877" />
+    </state>
+    <state x="112" y="124" key="new project wizard/44.23.1396.877@44.23.1396.877" timestamp="1603350845183" />
+    <state x="404" y="213" key="search.everywhere.popup" timestamp="1603642210673">
+      <screen x="41" y="23" width="1399" height="877" />
+    </state>
+    <state x="404" y="213" key="search.everywhere.popup/41.23.1399.877@41.23.1399.877" timestamp="1603642210673" />
     <state x="409" y="213" key="search.everywhere.popup/48.23.1392.877@48.23.1392.877" timestamp="1603251093070" />
   </component>
 </project>
