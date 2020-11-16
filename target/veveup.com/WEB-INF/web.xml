@@ -9,9 +9,9 @@
         http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
 
     <display-name>Archetype Created Web Application</display-name>
+    
     <servlet>
         <servlet-name>logindo</servlet-name>
-
         <servlet-class>com.veveup.controller.login</servlet-class>
     </servlet>
 
